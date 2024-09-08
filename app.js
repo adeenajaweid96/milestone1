@@ -11,31 +11,5 @@ window.onload = function () {
             console.error("Skill elements not found");
         }
     }
-    function setupEducationSection() {
-        var educationButton = document.getElementById("educationButton");
-        var educationBox = document.getElementById("educationBox");
-        if (educationButton && educationBox) {
-            educationButton.addEventListener("click", function () {
-                educationBox.style.display = (educationBox.style.display === "none" || educationBox.style.display === "") ? "block" : "none";
-            });
-        }
-        else {
-            console.error("Education elements not found");
-        }
-    }
-    function setupExperienceSection() {
-        var experienceButton = document.getElementById("experienceButton");
-        var experienceBox = document.getElementById("experienceBox");
-        if (experienceButton && experienceBox) {
-            experienceButton.addEventListener("click", function () {
-                experienceBox.style.display = (experienceBox.style.display === "none" || experienceBox.style.display === "") ? "block" : "none";
-            });
-        }
-        else {
-            console.error("Experience elements not found");
-        }
-    }
     setupSkillSection();
-    setupEducationSection();
-    setupExperienceSection();
 };
