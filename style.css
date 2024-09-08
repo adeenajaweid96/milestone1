@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fff;
+
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 10px 20px 20px rgb(207, 207, 207);
+    width: 70%;
+    height: 900px;
+    margin: 0 0 0 20rem;
+    margin-top: 60px;
+}
+
+h1 {
+    background-color: rgb(0, 38, 255);
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    color: rgb(0, 162, 255);
+    margin-top: 20px;
+    margin-left: 1.2rem;
+    font-size: 30px;
+}
+
+.info>p {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.skill ,.education , .experience{
+    background-color: #fff;
+    box-shadow: 0 10px 20px 20px rgb(207, 207, 207);
+    width: 30%;
+    height: 280px;
+    margin-left: 90px;
+    border-top: 4px solid rgb(0, 162, 255);
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.custom1, .custom2 , .custom3{
+    background-color:rgb(0, 162, 255);
+    width:20%;
+    height: 60px;
+    border: none;
+    border-radius:20px;
+    color: #fff;
+    font-size:25px;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-left:30px;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .custom1, .custom2, .custom3 {
+        width: 30%;
+    }
+
+    .skill, .education, .experience {
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 70%;
+    }
+
+    .custom1, .custom2, .custom3 {
+        width: 20%;
+    }
+
+    .skill, .education, .experience {
+        width: 30%;
+    }
+}
+
+    .container {
+        max-width: 90%;
+        padding: 40px;
+    }
+    
+    .skill, .education, .experience {
+        width: 45%;
+        margin-left: 5%;
+    }
+
+    .skill, .education, .experience {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+/* @media (min-width: 1024px) {
+
+    .container {
+        max-width: 70%;
+    }
+
+    .skill, .education, .experience {
+        width: 30%;
+        margin-left: 1%;
+    }
+}  */
